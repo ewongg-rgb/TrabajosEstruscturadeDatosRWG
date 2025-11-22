@@ -1,0 +1,11 @@
+El algoritmo de Dijkstra busca el camino más corto desde un punto de inicio hacia los otros puntos de un grafo. 
+Para lograrlo, se busca elegir el siguiente nodo con la distancia más pequeña ya calculada, en esta parte se usan los monticulos.
+
+Un montículo mínimo funciona como una “lista de prioridades” donde siempre queda arriba el elemento más pequeño. En este caso, lo que se compara es la distancia que lleva cada nodo
+. Gracias a esto, el algoritmo puede saber rápidamente cuál nodo debe procesar primero.
+
+Sin un montículo, habría que revisar todos los nodos cada vez para encontrar el más pequeño, lo que hace el proceso más lento.
+ Con el montículo mínimo, esa elección se hace de forma mucho más rápida y ordenada.
+
+El montículo mínimo le permite al algoritmo de Dijkstra elegir el siguiente nodo adecuado sin perder tiempo. 
+Esto hace que el recorrido de caminos sea más eficiente cuando el grafo es grande.
